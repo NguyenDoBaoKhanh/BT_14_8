@@ -1,9 +1,11 @@
-function tienLuong () {
-    var soNgay = document.getElementById("so-ngay").value*100000;
-    var tienLuong = document.getElementById
-    console.log("💩 ~ tienLuong ~ soNgay:", soNgay)
-    var tienLuong = soNgay * 100000;
-    document.getElementById("result");
+function bai_1(){
+    var money_perday =100_000,
+    input_data = document.getElementById("number");
+    working_days= input_data.value;
+    let output1 = document.getElementById("output1"),
+    salary= working_days*money_perday;
+
+    output1.innerHTML =`Your month salary: ${salary.toLocaleString()}`
 }
 
 function ketQua () {
