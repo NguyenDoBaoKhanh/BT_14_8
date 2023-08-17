@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div class="container">
+      <h2>Tính tiền lương</h2>
+      <div class="form-group">
+        <h3>Tiền lương : 100,000 VND</h2>
+        <label for="">Số ngày</label>
+        <input type="text" class="form-control" id="so-ngay" placeholder="" />
+        <br>
+        <button class="btn btn-success" onclick="tienLuong()">Tiền Lương</button>    
+      </div>
+      <br>
+      <h2>Số thực</h2>
+      <label for="">Số thứ nhất</label>
+      <input type="text" class="form-control" id="so-mot" placeholder="" />
+      <label for="">Số thứ hai</label>
+      <input type="text" class="form-control" id="so-hai" placeholder="" />
+      <label for="">Số thứ ba</label>
+      <input type="text" class="form-control" id="so-ba" placeholder="" />
+      <label for="">Số thứ bốn</label>
+      <input type="text" class="form-control" id="so-bon" placeholder="" />
+      <label for="">Số thứ năm</label>
+      <input type="text" class="form-control" id="so-nam" placeholder="" />
+      <br>
+      <button class="btn btn-success" onclick="ketQua()">Kết Quả</button>
+      <br>
+      <h2>USD sang VND</h2>
+      <label for="">USD</label>
+      <input type="text" class="form-control" id="USD" placeholder="" />
+      <label for="">VND</label>
+      <input type="text" class="form-control" id="VND" placeholder="" />
+      <option value="23500">23,500</option>
+      <br>
+      <button class="btn btn-success" onclick="chuyenDoi()"> Chuyển Đổi</button>
+
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
